@@ -5,9 +5,8 @@ import (
 	"os"
 )
 
-func callbackExit() error {
-	fmt.Println("")
-	fmt.Println("Bye 👋")
+func callbackExit(cfg *config) error {
+	fmt.Println("Bye! 👋")
 	fmt.Println("")
 
 	os.Exit(0)
